@@ -13,6 +13,7 @@ from models.review import Review
 from models.user import User
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, scoped_session
+
 name2class = {
     'Amenity': Amenity,
     'City': City,
